@@ -12,12 +12,13 @@
 // import WindowResizeView from "./use-window-resize/WindowResizeView"
 // import ScrollView from "./scroll-to-top-&-viceverca/ScrollView"
 // import ScrollSection from "./scroll-to-section/ScrollSection"
-import WeatherView from "./weather-app/WeatherView"
+// import WeatherView from "./weather-app/WeatherView"
 // import Modal from "./custom-modal/Modal"
 // import WeatherView from "./weather-app-2/WeatherView"
-
 // import NavigationView from "./navigation-bar/NavigationView";
 // import HomeView from './pages/home/HomeView'
+
+import HomeView from "./card-page/home/HomeView"
 
 
 function App() {
@@ -40,11 +41,11 @@ function App() {
             {/* <WindowResizeView /> */}
             {/* <ScrollView /> */}
             {/* <ScrollSection /> */}
-            <WeatherView />
             {/* <WeatherView /> */}
-
-            {/* <NavigationView />
-            <HomeView /> */}
+            {/* <WeatherView /> */}
+            {/* <NavigationView /> */}
+            {/* <HomeView /> */}
+            <HomeView />
         </>
     )
 }

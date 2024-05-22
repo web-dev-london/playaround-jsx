@@ -53,14 +53,27 @@ const GlobalState = ({ children }) => {
         setFavorite(copyFavorite)
     }
 
+    const value = {
+        searchParam,
+        setSearchParam,
+        handleSubmit,
+        loading,
+        recipes,
+        errorMsg,
+        detailsData,
+        setDetailsData,
+        setLoading,
+        setErrorMsg,
+        favorite,
+        setFavorite,
+        handleLinkToFavorite
+    }
+
 
     return (
         <>
             <GlobalContext.Provider
-                value={{
-                    searchParam, setSearchParam, handleSubmit, loading, recipes, errorMsg, detailsData, setDetailsData, setLoading, setErrorMsg,
-                    favorite, setFavorite, handleLinkToFavorite
-                }}
+                value={value}
             >
                 {children}
             </GlobalContext.Provider>

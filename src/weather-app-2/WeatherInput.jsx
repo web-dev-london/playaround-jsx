@@ -1,4 +1,4 @@
-import { Box, Button, Input } from "@chakra-ui/react";
+import { Box, Input } from "@chakra-ui/react";
 import { PropTypes } from 'prop-types';
 
 const WeatherInput = ({ city, handleChange, handleFormSubmit }) => {
@@ -20,9 +20,6 @@ const WeatherInput = ({ city, handleChange, handleFormSubmit }) => {
                         value={city}
                         onChange={handleChange}
                     />
-                    <Button
-                        type="submit"
-                    >Search</Button>
                 </form>
             </Box>
         </>

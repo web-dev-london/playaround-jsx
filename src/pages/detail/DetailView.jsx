@@ -17,6 +17,7 @@ const DetailView = () => {
                 if (data.data) {
                     setDetailsData(data.data)
                 }
+                console.log(data.data);
             })
         }
         fetchData()
@@ -40,6 +41,7 @@ const DetailView = () => {
                 </ListItem>
             )
         })
+
 
     return (
         <>
